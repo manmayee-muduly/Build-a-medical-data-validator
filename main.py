@@ -40,6 +40,7 @@ def validate(data):
         return False
 
     is_invalid = False
+    key_set = set(['patient_id', 'age','gender', 'diagnosis', 'medications', 'last_visit_id'])    
 
     if is_invalid:
         return False
